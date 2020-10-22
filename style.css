@@ -1,45 +1,65 @@
-*{
+body{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-.menu-container{
-    color: #fff;
-    background-color: #5995da;
-    padding:  20px 0;
-    display: flex;
-    justify-content: center;
-}
-.menu{
-    border: 1px solid #fff;
-    width: 900px;
-    display: flex;
-    justify-content: space-between;
-}
-.link{
-    border: 1px solid #fff;
-    display: flex;
-    width:900px;
-    justify-content: space-between;
+    height: 100px;
+    width: 100px;
+    background-image: url("images/music.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    
+   
     
 }
-.header-container{
-    color: #5995da;
-    background-color: #d6e9fe;
+p{
+    font-weight: bold;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 40%;
+    left: 50%;
+    height: 40px;
+    padding: 10px;
+    color: white;
+    font-size: x-large;
+    padding-bottom: 50px;
+    word-spacing: 0px;
+    
+
+}
+.search-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    transform: translate(-50%,-50%);
+    background: #0f1114;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+}
+ 
+
+.search-btn{
+    color: #ece7f7;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
     display: flex;
     justify-content: center;
-}
-.header{
-    display: flex;
-    width: 900px;
-    justify-content: space-between;
     align-items: center;
+    
 }
-.subscribe ,social{
-    align-self: flex-end;
-    margin-bottom: 20px;
-}
-.photo-grid-container{
-    display: flex;
-    justify-content: center;
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    width: 240px;
+    color: white;
+    font-size: 16px;
+    line-height: 40px;
 }
